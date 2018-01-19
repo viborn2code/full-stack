@@ -1,0 +1,51 @@
+<!DOCTYPE html>
+    <html>
+        <head>
+            <title>Projector</title>
+            <link rel="stylesheet" href="css\style.css"/>
+        </head>
+        <body>
+            <form class="add_movie" >
+                    <h1>Add a New Movie</h1>
+                    <label for="name">Movie Name</label>
+                    <input type="text" name="name" />
+                    <label for="release_year">Release Year</label>
+                    <input type="text" name="release_year" />
+                <div class="divide">
+                    <label for="language">Language</label>
+                    <select name="language" >
+                        <option Value="English">English</option>
+                        <option Value="Tamil">Tamil</option>
+                        <option Value="English">Hindi</option>
+                        <option Value="Malayalam">Malayalam</option>
+                    </select>
+                </div>
+                    <div class="divide pd">
+                        <label for="rating">Rating</label>
+                        <select name="rating" >
+                                <option Value="5">5</option>
+                                <option Value="4">4</option>
+                                <option Value="3">3</option>
+                                <option Value="2">2</option>
+                                <option Value="1">1</option>
+                            </select>
+                        
+
+                        </div>
+                        <label for="thumbnailurl">Thumbnail URL</label>
+                        <input type="url" name="thumbnailurl"/>
+                        <label for="plot">Plot</label>
+                        <textarea name="plot" rows="4" cols="20"></textarea>
+                        <label for="posterurl">Poster URL</label>
+                        <input type="url" name="posterurl"/>
+                        <label for="cast">Cast</label>
+                        <textarea name="cast" rows="4" ></textarea>
+                        <input type="submit" value="Submit"/>
+                    
+                                    
+                    
+                    
+            </form>
+            
+        </body>
+    </html>
