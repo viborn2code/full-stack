@@ -1,0 +1,96 @@
+
+/* COMMON STYLES*/
+    body, html {
+        margin: 0; padding: 0;
+    }
+    * {
+        box-sizing: border-box;
+    }
+
+/*
+ * Clearfix: contain floats
+ *
+ * For modern browsers
+ * 1. The space content is one way to avoid an Opera bug when the
+ *    `contenteditable` attribute is included anywhere else in the document.
+ *    Otherwise it causes space to appear at the top and bottom of elements
+ *    that receive the `clearfix` class.
+ * 2. The use of `table` rather than `block` is only necessary if using
+ *    `:before` to contain the top-margins of child elements.
+ */
+    
+
+    .container {
+        background-color: #442D4B;
+        color: #ffffff;
+        font-family: 'Lato', sans-serif;
+        width: 500px;
+       /* margin: 20 auto;*/
+    }
+  
+
+/* HEADER SECTION */
+.head{
+height: 75px;
+}
+.logo{
+    width: 48%;
+    display: inline-block;
+    box-sizing: border-box;
+    padding: 0 15px;
+  
+}
+.links{
+    padding-left:10px;
+    
+}
+.links a{
+    color: orange;
+}
+/* CONTENT SECTION */ 
+.movie_1{
+    width: 48%;
+    display: inline-block;
+    
+    padding:15px 20px;
+   box-sizing: border-box;
+    
+   
+}
+/*.mov{
+    padding: 15px 20px;
+}*/
+.release_year{
+    font-size: 75%;
+}
+.movie_name{
+    font-size: 100%;
+    font-weight: bold;
+    overflow-wrap: break-word;
+}
+.section
+{
+    font-family: 'Lato', sans-serif;
+    padding-left:20px;
+    font-weight: 300;
+}
+
+.all_movies
+{
+    font-family:'Lato', sans-serif;
+    text-decoration: none;
+    color: #ffffff;
+    font-size: 10px;
+}
+.back,.top_tit{
+    padding: 25px;
+}
+.plot{
+    width:48%;
+    display: inline-block;
+    box-sizing: border-box; 
+}
+.plot h4{
+    color:orange;
+}
+/* FOOTER SECTION */
